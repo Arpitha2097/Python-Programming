@@ -1,0 +1,6 @@
+print("Swapping of two numbers")
+#we will take num1,num2 for number swapping
+num1=int(input("Enter the num:"))
+num2=int(input("Enter the num:"))
+num1,num2=num2,num1
+print("Swapping of two numbers is :",num1,num2)
