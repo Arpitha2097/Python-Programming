@@ -1,0 +1,6 @@
+print("Area of the Rectangle")
+# area=l*b
+l=int(input("Enter area of the length:"))
+b=int(input("Enter area of the breath:"))
+area=l*b
+print("Area of the Rectangle is is:",area)
