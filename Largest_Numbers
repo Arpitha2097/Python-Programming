@@ -1,0 +1,10 @@
+print("Largest Numbers")
+#we need to get largest like, 3 is largest than 1.
+num1 = int(input("Enter the Value1:"))
+num2 = int(input("Enter the Value2:"))
+#lets see largest
+#Number is greater than so we will compare it with if else.
+if num1>num2:
+    print("Largest Numbers is:",num1)
+else :
+    print("Largest Numbers is:",num2)
