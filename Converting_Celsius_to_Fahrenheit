@@ -1,0 +1,5 @@
+print("Converting Celsius to Fahrenheit")
+#to check the temp of c to f .
+C=int(input("Enter the value:"))
+F=C*1.8+32
+print("Converting Celsius to Fahrenheit is:",F)
