@@ -1,0 +1,6 @@
+print("Sum of Two numbers")
+#to give value for a,b to get a+b=Value
+a=int(input("Value of a:"))
+b=int(input("Value of b:"))
+Value= a+b
+print("Sum of the Two Numbers is:",Value)
