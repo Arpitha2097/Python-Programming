@@ -1,0 +1,49 @@
+# ============================================
+# STUDENT DETAILS PROGRAM
+# ============================================
+
+# 1. VARIABLES - Store student details
+name = "John"
+age = 20
+marks = 88.5
+is_passed = True
+
+# 2. OUTPUT - Print student details
+print("=" * 30)
+print("       STUDENT DETAILS")
+print("=" * 30)
+
+print("\n--- STUDENT INFO ---")
+print("Name:", name)
+print("Age:", age)
+print("Marks:", marks)
+print("Is Passed:", is_passed)
+
+# 3. DATA TYPES - Print data type of each variable
+print("\n--- DATA TYPES ---")
+print(type(name))
+print(type(age))
+print(type(marks))
+print(type(is_passed))
+
+# 4. NUMBERS - Math operations on marks
+print("\n--- MATH OPERATIONS ON MARKS ---")
+print("Addition      :", marks + 10)
+print("Subtraction   :", marks - 10)
+print("Multiplication:", marks * 10)
+print("Division      :", marks / 10)
+print("Floor Division:", marks // 1)
+print("Modulus       :", marks % 10)
+print("Exponent      :", marks ** 2)
+
+# 5. SYNTAX - Check scholarship eligibility
+print("\n--- SCHOLARSHIP CHECK ---")
+if marks > 85:
+    print(f"{name} is eligible for scholarship!")
+else:
+    print(f"{name} is not eligible for scholarship.")
+
+print("\n" + "=" * 30)
+print("     PROGRAM COMPLETE")
+print("=" * 30)
+
