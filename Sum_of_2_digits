@@ -1,0 +1,4 @@
+number = 45  # This float will cause a float result
+tens = number // 10  # Result: 4.0
+units = number % 10  # Result: 5.0
+print(tens + units)  # Output: 9.0
